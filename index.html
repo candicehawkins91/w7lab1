@@ -1,57 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Weather this week in Alexandria, LA</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Weather this week in Alexandria, LA</h1>
-    
-    <button id="avgTemp"></button>
-    <p id="avgTemp"></p>
 
+    <button id="avgTemp">avgTemp</button>
+    <p id="avgTempP">Average Temp</p>
 
-    <button id="maxRain"></button>
-    <p id="maxRain"></p>
+    <button id="maxRain">Max Rainfall</button>
+    <p id="maxRainP">Rainfall</p>
 
     <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Day</th>
-      <th scope="col">Temperature</th>
-      <th scope="col">Rainfall</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Sunday</td>
-      <td>39</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Monday</td>
-      <td>40</td>
-      <td>1</td>
-    </tr>  
-    <tr>
-        <th scope="row">3</th>
-        <td>Tuesday</td>
-        <td>34</td>
-        <td>0.5</td>
-    </tr>
-    <tr>
-        <th scope="row">4</th>
-        <td>Wednesday</td>
-        <td>40</td>
-        <td>0</td>
-    </tr>    
-  </tbody>
-</table>;
+      <thead>
+        <tr>
+          <th scope="col">Day</th>
+          <th scope="col">Temperature</th>
+          <th scope="col">Rainfall</th>
+        </tr>
+      </thead>
+      <tbody id="daysWeather"></tbody>
+    </table>
+    ;
 
-    <Script:src="index.js"></Script:src>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
